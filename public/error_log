@@ -1,0 +1,40 @@
+[10-Feb-2025 18:16:03 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:30 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:44 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:49 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:16:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:04 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:16 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:17 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:17:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:19:03 UTC] PHP Warning:  require(/home/alkoxlxx/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/alkoxlxx/public_html/public/index.php on line 34
+[10-Feb-2025 18:19:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alkoxlxx/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alkoxlxx/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/alkoxlxx/public_html/public/index.php on line 34
