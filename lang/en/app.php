@@ -38,7 +38,9 @@ return [
         'categories_title'=>'Our Categories',
         'categories_sub_title'=>'Explore The Categories Of Our Bakery Products',
         'offers_title'=>' SPECIAL OFFERS',
-        'offers_sub_titles'=>'Don\'t miss out on our best offers!',
+        'offers_sub_title'=>'Do not miss out on our best offers!',
+
+
         'branches_title'=>'Our Branches',
         'branches_sub_title'=>'Find our bakery branches near you !',
     ],
@@ -71,7 +73,12 @@ return [
         'piece'=>'piece',
         'kg'=>'KG',
         'aed'=>'AED',
-        'new'=>'جديد',
+        'new'=>'new',
+        'yearexperince'=>'Years Experience',
+        'skilledprofessional'=>'Skilled Professionals',
+        'totalproducts'=>'Total Products',
+        'ordereveryday'=>'Order Everyday',
+
     ],
     'buttons'=>[
         'sendmessage'=>'Send Message',

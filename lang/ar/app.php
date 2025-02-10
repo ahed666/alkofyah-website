@@ -75,6 +75,11 @@ return [
         'kg'=>'كج',
         'aed'=>'أ.د',
         'new'=>'جديد',
+        'yearexperince'=>'سنوات الخبرة',
+        'skilledprofessional'=>'محترفين',
+        'totalproducts'=>'منتجاتنا',
+        'ordereveryday'=>'اطلب يوميا',
+
     ],
     'buttons'=>[
         'sendmessage'=>'إرسال الرسالة',
