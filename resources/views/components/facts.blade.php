@@ -9,28 +9,28 @@
                 <div class="col-lg-3 col-md-6 col-6 wow bounceInLeft" data-wow-delay="0.1s">
                     <div class="fact-item  rounded text-center h-100  ">
                         <i class="fa fa-certificate fa-2x text-primary mb-4"></i>
-                        <p class="mb-2">Years Experience</p>
+                        <p class="mb-2">{{__('app.labels.yearexperince')}}</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">+10</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 wow bounceInLeft" data-wow-delay="0.3s">
                     <div class="fact-item  rounded text-center h-100  ">
                         <i class="fa fa-users fa-2x text-primary mb-4"></i>
-                        <p class="mb-2">Skilled Professionals</p>
+                        <p class="mb-2">{{__('app.labels.skilledprofessional')}}</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">+50</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 wow bounceInRight" data-wow-delay="0.5s">
                     <div class="fact-item  rounded text-center h-100  ">
                         <i class="fa fa-bread-slice fa-2x text-primary mb-4"></i>
-                        <p class="mb-2">Total Products</p>
+                        <p class="mb-2">{{__('app.labels.totalproducts')}}</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">+75</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 wow bounceInRight" data-wow-delay="0.7s">
                     <div class="fact-item  rounded text-center h-100  ">
                         <i class="fa fa-cart-plus fa-2x text-primary mb-4"></i>
-                        <p class="mb-2">Order Everyday</p>
+                        <p class="mb-2">{{__('app.labels.ordereveryday')}}</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">+1000</h1>
                     </div>
                 </div>
