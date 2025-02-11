@@ -21,13 +21,18 @@
                                     <h5 class="card-title">{{ $branch['name_'.app()->getLocale()] }}</h5>
                                     <p class="card-text"><i class="fa fa-map-marker-alt text-danger"></i> {{ $branch['location_'.app()->getLocale()] }}</p>
                                     <p class="card-text"><i class="fa fa-phone text-primary"></i> {{ $branch->phone }}</p>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="focusOnBranch({{ $branch->latitude }}, {{ $branch->longitude }})">
+                                    <div class="d-flex align-items-center ">
+                                    <button class="btn btn-sm btn-outline-primary mx-1" onclick="focusOnBranch({{ $branch->latitude }}, {{ $branch->longitude }})">
                                     {{__('app.buttons.viewonmap')}}
                                     </button>
                                     <a href="https://www.google.com/maps/dir/?api=1&destination={{ $branch->latitude }},{{ $branch->longitude }}" target="_blank"
-                                     class="btn btn-sm btn-outline-primary">
+                                     class="btn btn-sm btn-outline-primary mx-1">
                                         {{__('app.buttons.getdirections')}}
                                     </a>
+                                    <a class="btn btn-square btn-outline-primary rounded-circle text-primary  mx-1"
+                                    onmouseover="this.classList.add('text-white')" onmouseout="this.classList.remove('text-white')" target="_blank" 
+                                    href="https://wa.me/{{$branch->phone}}"><i class="fab fa-whatsapp"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
