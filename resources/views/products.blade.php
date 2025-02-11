@@ -4,6 +4,15 @@
 @section('description', __('app.contents.products_content', ['category' => $category->{'name_' . app()->getLocale()}]))
 @section('keywords', __('app.keywords.products_keywords', ['category' => $category->{'name_' . app()->getLocale()}]))
 
+@section('og_url', route('category.show', $category->slug))
+@section('og_image', Voyager::image($category->image))
+@section('og_type', 'category')
+
+@section('t_title', $category->name) <!-- Twitter title should be a title, not URL -->
+@section('t_description',  __('app.contents.products_content', ['category' => $category->{'name_' . app()->getLocale()}]))
+@section('t_url', route('category.show', $category->slug))
+@section('t_image', Voyager::image($category->image))
+
 @section('content')
 
 <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">

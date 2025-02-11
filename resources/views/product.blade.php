@@ -1,10 +1,22 @@
 @extends('layouts.app')
 
+@php
+    $images = json_decode($product->images); 
+    $image=$images[0];
+@endphp
 
 @section('title', __('app.titles.product_title', ['product' => $product->{'name_' . app()->getLocale()}, 'category' => $product->category->{'name_' . app()->getLocale()}]))
 @section('description', __('app.contents.product_content', ['product' => $product->{'name_' . app()->getLocale()}, 'category' => $product->category->{'name_' . app()->getLocale()}]))
 @section('keywords', __('app.keywords.product_keywords', ['product' => $product->{'name_' . app()->getLocale()}, 'category' => $product->category->{'name_' . app()->getLocale()}]))
 
+@section('og_url', route('product.show', $product->slug))
+@section('og_image', Voyager::image($image))
+@section('og_type', 'product')
+
+@section('t_title', $product->name) <!-- Twitter title should be a title, not URL -->
+@section('t_description', __('app.contents.product_content', ['product' => $product->{'name_' . app()->getLocale()}, 'category' => $product->category->{'name_' . app()->getLocale()}]))
+@section('t_url', route('product.show', $product->slug))
+@section('t_image', Voyager::image($image))
 
 @section('content')
 
@@ -27,9 +39,7 @@
         <div class="col-md-6">
             <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    @php
-                        $images = json_decode($product->images); 
-                    @endphp
+                   
                     @foreach ($images as $index => $image)
                         <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
                             <img src="{{ Voyager::image($image) }}" class="d-block w-100 rounded" alt="{{$product['name_'.app()->getLocale()]}}-{{ $product['name_' . app()->getLocale()] }}">

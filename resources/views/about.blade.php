@@ -4,6 +4,15 @@
 @section('description', __('app.contents.about_content'))
 @section('keywords', __('app.keywords.about_keywords'))
 
+@section('og_url', route('about'))
+@section('og_image', {{ asset('images/logo/logo.png') }})
+@section('og_type', __('app.titles.about_title'))
+
+@section('t_title', __('app.titles.about_title')) <!-- Twitter title should be a title, not URL -->
+@section('t_description',  __('app.contents.menu_content'))
+@section('t_url', route('about'))
+@section('t_image', {{ asset('images/logo/logo.png') }})
+
 @section('content')
 @if(app()->getLocale()=="en")
 <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">

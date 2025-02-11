@@ -3,6 +3,15 @@
 @section('title', __('app.titles.home_title'))
 @section('description', __('app.contents.home_content'))
 @section('keywords', __('app.keywords.home_keywords'))
+
+@section('og_url', route('home'))
+@section('og_image', {{ asset('images/logo/logo.png') }})
+@section('og_type', __('app.titles.home_title'))
+
+@section('t_title', __('app.titles.home_title')) <!-- Twitter title should be a title, not URL -->
+@section('t_description',  __('app.contents.home_content'))
+@section('t_url', route('home'))
+@section('t_image', {{ asset('images/logo/logo.png') }})
 @section('content')
 <!-- Carousel Start -->
    <x-sliders :sliders="$sliders"/>

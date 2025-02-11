@@ -8,6 +8,17 @@
     <meta content="@yield('keywords')" name="keywords">
     <meta content="@yield('description')" name="description">
 
+    <meta property="og:url" content="@yield('og_url')" />
+    <meta property="og:image" content="@yield('og_image')" />
+    <meta property="og:type" content="@yield('type')" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="@yield('t_title')" />
+    <meta name="twitter:description" content="@yield('t_description')" />
+    <meta name="twitter:url" content="@yield('t_url')" />
+    <meta name="twitter:image" content="@yield('t_image')" />
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 

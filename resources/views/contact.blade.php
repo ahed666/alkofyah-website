@@ -3,6 +3,15 @@
 @section('description', __('app.contents.contact_content'))
 @section('keywords', __('app.keywords.contact_keywords'))
 
+@section('og_url', route('contact.show'))
+@section('og_image', {{ asset('images/logo/logo.png') }})
+@section('og_type', __('app.titles.contact_title'))
+
+@section('t_title', __('app.titles.contact_title')) <!-- Twitter title should be a title, not URL -->
+@section('t_description',  __('app.contents.contact_content'))
+@section('t_url', route('contact.show'))
+@section('t_image', {{ asset('images/logo/logo.png') }})
+
 @section('content')
 <!-- Page Header Start -->
 <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
