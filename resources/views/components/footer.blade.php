@@ -61,7 +61,7 @@ style="background: url('{{ asset('img/footer_bg.jpg') }}') no-repeat center cent
 
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    {{__('app.labels.desginedby')}}: <a class="fw-bold text-white mx-1" href="https://github.com/ahed666"><span>Ahed Naser Eddin</span></a>
+                    {{__('app.labels.desginedby')}}: <a class="fw-bold text-white mx-1" target="_blank" href="https://github.com/ahed666"><span>Ahed Naser Eddin</span></a>
                 </div>
             </div>
         </div>
