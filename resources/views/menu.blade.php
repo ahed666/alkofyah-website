@@ -5,13 +5,13 @@
 @section('keywords', __('app.keywords.menu_keywords'))
 
 @section('og_url', route('menu'))
-@section('og_image', {{ asset('images/logo/logo.png') }})
+@section('og_image', asset('images/logo/logo.png'))
 @section('og_type', __('app.titles.menu_title'))
 
 @section('t_title', __('app.titles.menu_title')) <!-- Twitter title should be a title, not URL -->
 @section('t_description',  __('app.contents.menu_content'))
 @section('t_url', route('menu'))
-@section('t_image', {{ asset('images/logo/logo.png') }})
+@section('t_image', asset('images/logo/logo.png') )
 
 @section('content')
 
