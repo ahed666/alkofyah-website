@@ -50,7 +50,7 @@
                         <a href="tel:{{$branch->phone}}" class="phone_number my-1"><i class="fas fa-phone text-primary"></i> {{ $branch->phone }}</a>
                         <a class=""
                                 target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
-                                    class="fab fa-whatsapp"></i>{{ $branch->phone }}</a>
+                                    class="fas fa-whatsapp text-primary"></i>{{ $branch->phone }}</a>
                         </div>
                        
                     </div>
