@@ -44,12 +44,15 @@
                     @foreach($branches as $branch)
                     <div class="mb-3">
                         <h5 class="text-primary">{{$branch['name_'.app()->getLocale()]}}</h5>
-                        <a href="tel:{{$branch->phone}}" class="phone_number"><i class="fas fa-map-marker-alt text-primary"></i>
+                        <div class="d-grid">
+                        <a href="tel:{{$branch->phone}}" class="my-1"><i class="fas fa-map-marker-alt text-primary"></i>
                             {{$branch['location_'.app()->getLocale()]}}</a>
-                        <a href="tel:{{$branch->phone}}" class="phone_number"><i class="fas fa-phone text-primary"></i> {{ $branch->phone }}</a>
-                        <a class="btn btn-square btn-outline-light text-primary  border-primary rounded-circle me-1"
+                        <a href="tel:{{$branch->phone}}" class="phone_number my-1"><i class="fas fa-phone text-primary"></i> {{ $branch->phone }}</a>
+                        <a class=""
                                 target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
                                     class="fab fa-whatsapp"></i>{{ $branch->phone }}</a>
+                        </div>
+                       
                     </div>
                     @endforeach
 
