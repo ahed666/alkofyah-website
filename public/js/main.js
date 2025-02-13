@@ -97,6 +97,7 @@
    
         $(".category-slider").owlCarousel({
             loop: true, // Infinite loop
+            rtl: $("html").attr("dir") === "rtl", // Enable RTL if Arabic is selected
             margin: 10, // Space between items
             autoplay: true, // Auto slide
             autoplayTimeout: 3000, // 3 seconds delay
