@@ -19,7 +19,7 @@ return [
         'product_content' => 'Experience the authentic taste of :product, a delicious part of our :category collection, freshly baked at Alkofyah Bakery.',
     ],
     'keywords' => [
-        'home_keywords' => 'Palestinian bakery, Arabic sweets, fresh bread, Taboon bread, handmade bakery, Middle Eastern desserts, Alkofyah Bakery',
+        'home_keywords' => 'Palestinian bakery,Palestinian bakery in UAE ,Palestinian bakery in Sharjah, Arabic sweets, fresh bread, Taboon bread, handmade bakery, Middle Eastern desserts, Alkofyah Bakery',
         'menu_keywords' => 'Bakery menu, Arabic bakery, Palestinian sweets, traditional pastries, Middle Eastern baked goods',
         'contact_keywords' => 'Bakery contact, order bakery, Palestinian bakery contact, Alkofyah contact, bakery phone, bakery WhatsApp',
         'about_keywords' => 'Bakery history, Palestinian bakery story, about Alkofyah, Middle Eastern bakery heritage',

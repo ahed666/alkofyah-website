@@ -55,7 +55,7 @@
                     @foreach($categories as $category)
                     <a href="{{route('category.show',$category->slug)}}" class="dropdown-item">
 
-                        {{$category['desc_' . app()->getLocale()]}}
+                        {{$category['name_' . app()->getLocale()]}}
                     </a>
                     @endforeach
                 </div>
