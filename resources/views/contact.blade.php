@@ -45,12 +45,16 @@
                     <div class="mb-3">
                         <h5 class="text-primary">{{$branch['name_'.app()->getLocale()]}}</h5>
                         <div class="d-grid">
-                        <a href="tel:{{$branch->phone}}" class="my-1"><i class="fas fa-map-marker-alt text-primary"></i>
-                            {{$branch['location_'.app()->getLocale()]}}</a>
-                        <a href="tel:{{$branch->phone}}" class="phone_number my-1"><i class="fas fa-phone text-primary"></i> {{ $branch->phone }}</a>
-                        <a class=""
+                        <a href="tel:{{$branch->phone}}" class="my-1 text-black">
+                            <i class="fas fa-map-marker-alt text-primary mx-1"></i>
+                            {{$branch['location_'.app()->getLocale()]}}
+                        </a>
+                        <a href="tel:{{$branch->phone}}" class="phone_number text-black my-1">
+                            <i class="fas fa-phone text-primary mx-1"></i> {{ $branch->phone }}
+                        </a>
+                        <a class="my-1 text-black"
                                 target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
-                                    class="fas fa-whatsapp text-primary"></i>{{ $branch->phone }}</a>
+                                    class="fab fa-whatsapp text-primary mx-1"></i>{{ $branch->phone }}</a>
                         </div>
                        
                     </div>
