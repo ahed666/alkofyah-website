@@ -67,7 +67,7 @@
                                     <h5 class=" border-bottom pb-2">
                                         <span>{{ $product['name_' . app()->getLocale()] }}</span>
                                     </h5>
-                                    <small class="text-primary">AED <span>{{ number_format($product->price, 2) }}</span> {{__('/')}} {{$product->unit_count}}{{__(' ')}}{{$product->unit_text}}</small>
+                                    <small class="text-primary">{{ number_format($product->price, 2) }} {{__('app.labels.aed')}} {{__('/')}} {{$product->unit_count}}{{__(' ')}} {{__('app.labels.'.$product->unit_text)}}</small>
 
                                     <!-- <small class="fst-italic">{{ $product['desc_' . app()->getLocale()] }}</small> -->
                                 </div>
