@@ -11,7 +11,7 @@ style="background: url('{{ asset('img/footer_bg.jpg') }}') no-repeat center cent
                     <div class="mb-2">
                     <h6 class="text-light mb-1">{{$branch['name_'.app()->getLocale()]}}</h6>
                     <p class="mb-1 text-light"><i class="fa fa-map-marker-alt mx-3 text-primary"></i>{{$branch['location_'.app()->getLocale()]}}</p>
-                    <a href="tel:{{$branch->phone}}" class="mb-1 phone_number text-light"><i class="fa fa-phone-alt mx-3 text-primary"></i>{{$branch->phone}}</a>
+                    <a href="tel:{{$branch->phone}}" class="mb-1  text-light"><i class="fa fa-phone-alt mx-3 text-primary"></i><span>{{$branch->phone}}</span></a>
                     </div>
                     @endforeach
                     </div>
