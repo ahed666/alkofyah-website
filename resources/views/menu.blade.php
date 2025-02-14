@@ -31,8 +31,8 @@
 <div class="container-xxl py-6">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-            <h1 class="mb-5">Most Popular Items</h1>
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">{{__('app.sections_titles.menu_title')}}</h5>
+            <h1 class="mb-5">Most Popular Items{{__('app.sections_titles.menu_sub_title')}}</h1>
         </div>
         <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
             <ul class="nav nav-pills d-flex  border-bottom mb-5 custom-scroll">
@@ -59,16 +59,17 @@
                         @php
                             $images = json_decode($product->images);
                         @endphp
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 menu-item">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 img-fluid rounded" src="{{Voyager::image($images[0])}}" alt=""
-                                    style="width: 80px;">
-                                <div class="w-100 d-flex flex-column text-start px-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    style="width: 100px;">
+                                <div class="w-100 item-info d-flex flex-column text-start px-4">
+                                    <h5 class=" border-bottom pb-2">
                                         <span>{{ $product['name_' . app()->getLocale()] }}</span>
-                                        <small class="text-primary">AED <span>{{ number_format($product->price, 2) }}</span> {{__('/')}} {{$product->unit_count}}{{__(' ')}}{{$product->unit_text}}</small>
                                     </h5>
-                                    <small class="fst-italic">{{ $product['desc_' . app()->getLocale()] }}</small>
+                                    <small class="text-primary">AED <span>{{ number_format($product->price, 2) }}</span> {{__('/')}} {{$product->unit_count}}{{__(' ')}}{{$product->unit_text}}</small>
+
+                                    <!-- <small class="fst-italic">{{ $product['desc_' . app()->getLocale()] }}</small> -->
                                 </div>
                             </div>
                         </div>

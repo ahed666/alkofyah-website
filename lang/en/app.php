@@ -41,6 +41,8 @@ return [
         'offers_sub_title'=>'Don\'t miss out on our best offers!',
         'branches_title'=>'Our Branches',
         'branches_sub_title'=>'Find our bakery branches near you !',
+        'menu_title'=>'Food Menu',
+        'menu_sub_title'=>'Discover the authentic flavors of Palestinian heritage',
     ],
     'navbar'=>[
         'home'=>'Home',
