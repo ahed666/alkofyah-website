@@ -75,7 +75,7 @@ return [
         'pieces'=>'قطع',
         'piece'=>'قطعة',
         'kg'=>'كج',
-        'aed'=>'أ.د',
+        'aed'=>'د.أ',
         'new'=>'جديد',
         'yearexperince'=>'سنوات الخبرة',
         'skilledprofessional'=>'محترفين',

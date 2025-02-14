@@ -2,7 +2,7 @@
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
                             <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">
-                                 {{ number_format($product->price, 2) }} {{__('app.labels.aed')}} {{__('/')}} {{$product->unit_count}}{{__(' ')}} {{__('app.labels.'.$product->unit_text)}}</div>
+                                 <strong>{{ number_format($product->price, 2) }}</strong> {{__('app.labels.aed')}} {{__('/')}} <strong>{{$product->unit_count}}</strong>{{__(' ')}} {{__('app.labels.'.$product->unit_text)}}</div>
                             <h3 class="mb-3">{{$product['name_'.app()->getLocale()]}}</h3>
                             <span>{{$product['desc_'.app()->getLocale()]}}</span>
                         </div>

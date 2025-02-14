@@ -32,7 +32,7 @@
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h5 class="section-title ff-secondary text-center text-primary fw-normal">{{__('app.sections_titles.menu_title')}}</h5>
-            <h1 class="mb-5">Most Popular Items{{__('app.sections_titles.menu_sub_title')}}</h1>
+            <h1 class="mb-5">{{__('app.sections_titles.menu_sub_title')}}</h1>
         </div>
         <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
             <ul class="nav nav-pills d-flex  border-bottom mb-5 custom-scroll">
@@ -67,7 +67,8 @@
                                     <h5 class=" border-bottom pb-2">
                                         <span>{{ $product['name_' . app()->getLocale()] }}</span>
                                     </h5>
-                                    <small class="text-primary">{{ number_format($product->price, 2) }} {{__('app.labels.aed')}} {{__('/')}} {{$product->unit_count}}{{__(' ')}} {{__('app.labels.'.$product->unit_text)}}</small>
+                                    <small class="text-primary">
+                                        <strong>{{ number_format($product->price, 2) }}</strong> {{__('app.labels.aed')}} {{__('/')}} <strong>{{$product->unit_count}}</strong>{{__(' ')}} {{__('app.labels.'.$product->unit_text)}}</small>
 
                                     <!-- <small class="fst-italic">{{ $product['desc_' . app()->getLocale()] }}</small> -->
                                 </div>
