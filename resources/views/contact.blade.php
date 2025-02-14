@@ -49,8 +49,9 @@
                             <i class="fas fa-map-marker-alt text-primary mx-1"></i>
                             {{$branch['location_'.app()->getLocale()]}}
                         </a>
-                        <a href="tel:{{$branch->phone}}" class="phone_number text-black my-1">
-                            <i class="fas fa-phone text-primary mx-1"></i> {{ $branch->phone }}
+                        <a href="tel:{{$branch->phone}}" class=" text-black my-1">
+                            <i class="fas fa-phone text-primary mx-1"></i>
+                            <span class="phone_number">{{ $branch->phone }}</span> 
                         </a>
                         <a class="my-1 text-black"
                                 target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
