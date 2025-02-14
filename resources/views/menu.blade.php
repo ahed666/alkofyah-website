@@ -63,7 +63,7 @@
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 img-fluid rounded" src="{{Voyager::image($images[0])}}" alt=""
                                     style="width: 100px;">
-                                <div class="w-100 item-info d-flex flex-column text-start px-4">
+                                <div class="w-100 item-info d-flex flex-column text-center px-4">
                                     <h5 class=" border-bottom pb-2">
                                         <span>{{ $product['name_' . app()->getLocale()] }}</span>
                                     </h5>
