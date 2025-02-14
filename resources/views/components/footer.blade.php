@@ -11,12 +11,14 @@ style="background: url('{{ asset('img/footer_bg.jpg') }}') no-repeat center cent
                     <div class="mb-2">
                     <h6 class="text-light mb-1">{{$branch['name_'.app()->getLocale()]}}</h6>
                     <p class="mb-1 text-light"><i class="fa fa-map-marker-alt mx-3 text-primary"></i>{{$branch['location_'.app()->getLocale()]}}</p>
+                    <div class="d-grid">
                     <a href="tel:{{$branch->phone}}" class="mb-1  text-light"><i class="fa fa-phone-alt mx-3 text-primary"></i><span class="phone_number">{{$branch->phone}}</span></a>
-                    <a class="my-1 text-black"
+                    <a class="my-1 text-light"
                                 target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
-                                    class="fab fa-whatsapp text-primary mx-1"></i>
+                                    class="fab fa-whatsapp  mx-1"></i>
                     <span class="phone_number">{{ $branch->phone }}</span>
                     </a>
+                    </div>
                     </div>
                     @endforeach
                     </div>
