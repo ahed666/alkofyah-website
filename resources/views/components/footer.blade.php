@@ -19,7 +19,7 @@
                             </li>
                             <li>
                                 <a class="my-1 text-light" target="_blank" href="https://wa.me/{{ $branch->phone }}"><i
-                                        class="fab fa-whatsapp  mx-1 text-primary"></i>
+                                        class="fab fa-whatsapp  mx-3 text-primary"></i>
                                     <span class="phone_number">{{ $branch->phone }}</span>
                                 </a>
                             </li>
