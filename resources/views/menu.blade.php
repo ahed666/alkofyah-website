@@ -61,7 +61,7 @@
                         @endphp
                         <div class="col-lg-6 menu-item">
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0 img-fluid rounded" src="{{Voyager::image($images[0])}}" alt=""
+                                <img class="flex-shrink-0 img-fluid rounded" src="{{Voyager::image($images[0])}}" alt="{{$product['alt_'.app()->getLocale()]}}"
                                     style="width: 100px;">
                                 <div class="w-100 item-info d-flex flex-column text-center px-4">
                                     <h5 class=" border-bottom pb-2">
