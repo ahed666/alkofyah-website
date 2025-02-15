@@ -2,7 +2,7 @@
         <div class="owl-carousel header-carousel position-relative">
             @foreach($sliders as $slider)
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{Voyager::image($slider->image)}}" alt="">
+                <img loading="lazy" class="img-fluid" src="{{Voyager::image($slider->image)}}" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
